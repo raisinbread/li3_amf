@@ -1,0 +1,11 @@
+# li3_amf
+
+li3_amf is a Lithium PHP Framework plugin that allows you to expose your controller logic and responses to an AMF-compatible client (usually a Flash or Flex object).
+
+This is currently a work in progress, and is not usable in its current state.
+
+# Installling li3_amf
+
+1. Download and install to `/app/libraries/`.
+1. Download the Zend Framework (1.10.4), and place the `Zend` folder in `/libraries`.
+1. Add to `app/bootstrap/libraries.php`: `Libraries::add('li3_amf');`
